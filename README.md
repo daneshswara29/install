@@ -4,8 +4,8 @@
 
 ### ORDER/SEWA SCRIPT TUNNELING
 CONTACT:
-Telegram: t.me/xhidrolic
-Wa: wa.me/+6287763369249
+Telegram: t.me/D_swara
+Wa: wa.me/+6282380835972
 
 ### INSTALL SCRIPT 
 ```

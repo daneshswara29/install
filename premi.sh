@@ -53,11 +53,11 @@ checking_sc() {
 checking_sc
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e " WELCOME VNZ AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
+echo -e " WELCOME D_swara AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
 echo -e " PROSES PENGECEKAN IP ADDRESS ANDA !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
-echo -e " ›AUTHOR : ${green}Vnz ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
-echo -e " ›TEAM : VnzVPN STORE ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " ›AUTHOR : ${green}D_swara ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
+echo -e " ›TEAM : D_swaraVPN STORE ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -333,8 +333,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-4124346554"
-KEY="7131481321:AAGI3LtovNqUG65-Uf9aMM93n_RzrCRg8Oo"
+CHATID="702916090"
+KEY="6782550545:AAEQJCiVZvTvu-2vvd5z4I4I4V7-W3lwIyM"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -350,10 +350,10 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> VNZ VPN STORE SCRIPT  </b>
+<b> D_swara VPN STORE SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/VnzPro"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/D_swara"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -1037,11 +1037,11 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ SCRIPT BY VnzVPN ]-==============="
+echo "===============-[ SCRIPT BY D_swaraVPN ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
-echo "ThanksYou For Using Script VnzVPN"
+echo "ThanksYou For Using Script D_swaraVPN"
 sleep 1
 echo -ne "[ ${yell}COMPLETED${NC} ] PENGINSTALAN SCRIPT SELESAI KETIK Y UNTUK REBOOT ! (y/n)? "
 read answer

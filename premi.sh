@@ -1042,10 +1042,6 @@ echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
 echo "ThanksYou For Using Script D_swaraVPN"
-sleep 1
-echo -ne "[ ${yell}COMPLETED${NC} ] PENGINSTALAN SCRIPT SELESAI KETIK Y UNTUK REBOOT ! (y/n)? "
-read answer
-if [ "$answer" == "${answer#[Yy]}" ] ;then
-exit 0
-else
+echo ""
+read -p "$( echo -e "Press ${YELLOW}[ ${NC}${YELLOW}Enter${NC} ${YELLOW}]${NC} For reboot") "
 reboot

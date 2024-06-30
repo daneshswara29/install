@@ -57,7 +57,7 @@ echo -e " WELCOME D_swara AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Editio
 echo -e " PROSES PENGECEKAN IP ADDRESS ANDA !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
 echo -e " ›AUTHOR : ${green}D_swara ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
-echo -e " ›TEAM : D_swaraVPN STORE ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " ›TEAM : D_swaraVPN STORE ${YELLOW}(${NC} ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -795,7 +795,8 @@ wget "${REPO}/noobzvpns.zip"
 unzip noobzvpns.zip
 bash install.sh
 rm noobzvpns.zip
-systemctl restart noobzvpns
+systemctl start noobzvpns.service
+systemctl enable noobzvpns.service
 print_success "NOOBZVPN"
 }
 

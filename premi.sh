@@ -791,10 +791,11 @@ print_success "ePro WebSocket Proxy"
 }
 function noobzvpn(){
 clear
-wget "${REPO}/noobzvpns.zip"
+git clone https://github.com/noobz-id/noobzvpns.git
 unzip noobzvpns.zip
 cd noobzvpns
-./install.sh
+bash install.sh
+rm noobzvpns.zip
 systemctl start noobzvpns.service
 systemctl enable noobzvpns.service
 cd

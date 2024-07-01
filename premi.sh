@@ -793,10 +793,11 @@ function noobzvpn(){
 clear
 wget "${REPO}/noobzvpns.zip"
 unzip noobzvpns.zip
-bash install.sh
-rm noobzvpns.zip
+cd noobzvpns
+./install.sh
 systemctl start noobzvpns.service
 systemctl enable noobzvpns.service
+cd
 print_success "NOOBZVPN"
 }
 
